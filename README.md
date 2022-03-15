@@ -105,3 +105,17 @@ def INTENTOS(algunaLetra):
             print ('Elije una letra.')
         else:
             return letra
+      # 4. Función para reiniciar el juego
+ 
+def START():
+    print ('Quieres jugar de nuevo? (Si o No)')
+    return input().lower().startswith('s')
+
+# 4. Función para reiniciar el juego
+ 
+def START():
+    print ('Quieres jugar de nuevo? (Si o No)')
+    return input().lower().startswith('s')
+    
+            
+
